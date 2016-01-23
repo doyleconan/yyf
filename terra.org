@@ -11,7 +11,7 @@
 | Age       | 20                       |
 | Height    | 5'4"                     |
 | Weight    | 130lbs                   |
-| Hair      | Red                      |
+| Hair      | Green                    |
 | Eyes      | Red                      |
 | Language  | Common                   |
 
@@ -53,9 +53,9 @@
 - Track
 - Precise Companion: Outflank
 * Offense
-Falchion: +7=+2(BAB)+4(STR)+1(MWK), 2d4+6/18-20x2
-Unarmed Strike: +6=+2(BAB)+4(STR), 1d6+4/20x2
-Longbow, Composite: +5=+2(BAB)+2(DEX)+1(MWK), 1d8+4/20x3
+- Falchion: +7=+2(BAB)+4(STR)+1(MWK), 2d4+6/18-20x2
+- Unarmed Strike: +6=+2(BAB)+4(STR), 1d6+4/20x2
+- Longbow, Composite: +5=+2(BAB)+2(DEX)+1(MWK), 1d8+4/20x3
 
 * Defense
 - AC: 18 = 10 + 2(dex) + 6(breast plate), FF: 16, Touch: 12
@@ -66,8 +66,8 @@ Longbow, Composite: +5=+2(BAB)+2(DEX)+1(MWK), 1d8+4/20x3
 | Fort   |     7 |    5 |         2 |      |        |
 | Reflex |     7 |    5 |         2 |      |        |
 | Will   |     2 |    0 |         1 |      | 1      |
-+2 on all saving throws against charm and compulsion effects.
 * Skill
+Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 
 | Name               | Total | Attribute | Rank | Misc | ACP |
 |--------------------+-------+-----------+------+------+-----|
@@ -110,13 +110,13 @@ Longbow, Composite: +5=+2(BAB)+2(DEX)+1(MWK), 1d8+4/20x3
 | Total              |       |           |   19 |      |     |
 #+TBLFM: @37$4=vsum(@2$4..@36$4)
 
-Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 
-+4 handle animal for animal companion, +2 perception and sense motive when adjacent to animal companion
+- +4 handle animal for animal companion
+- +2 perception and sense motive when adjacent to animal companion
 * Feat and Traits
 ** Feat
 | Level | Source                     | Feat                       | Description                         |
-|     1 |                            | Combat Expertise           | -1 Attack, +1 AC                    |
+|     1 |                            | Combat Expertise           | +1 AC                               |
 |     1 | Human                      | Power Attack               | -1 Attack, +3 Damage                |
 |     1 | Brawler 1                  | Improved Unarmed Strike    | 1d6 damage                          |
 |     3 | Hunter 2                   | Precise Companion Outflank | +4 Flanking, AO from ally when Crit |
@@ -128,8 +128,8 @@ Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 |     9 |                            |                            |                                     |
 |    10 | Hunter Bonus Teamwork Feat |                            |                                     |
 ** Trait
-- Birthmark: +2 on all saving throws against charm and compulsion effects.
-- Indomitable Faith: You gain a +1 trait bonus on Will saves.
+- Indomitable Faith: +1 Will
+- Threatening Defender: +1 Attack when using combat expertise
 
 * Items
 | Name                           | Price | Weight | Comment    |
@@ -165,18 +165,16 @@ Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 | Lv | Total | Class | Wis Modifier |
 |----+-------+-------+--------------|
 |  0 |   Inf |   Inf |              |
-|  1 |     4 |     3 |            1 |
+|  1 |     3 |     2 |            1 |
 Spells Knows:
 - Level 0 (DC = 11)
   - Create Water
-  - Detect Magic
   - Detect Poison
   - Enhanced Diplomacy
   - Known Direction
   - Stabilize
 - Level 1 (DC = 12)
   - Cheetah's Sprint
-  - Delay Poison
   - Faerie Fire
   - Resist Energy
   - Summon Natural Ally I (auto include)
