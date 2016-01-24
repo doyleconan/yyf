@@ -32,7 +32,7 @@
 * Class
 ** Brawler (Wild Child) 1
 - Brawler's Cunning: Int = 13 for the purpose of meeting the prerequesites of combat feats
-- Martial Flexibility: 3/day, a brawler can take a move action to gain the benefit of a combat feat she does not possess.
+- Martial Flexibility: 4/day, a brawler can take a move action to gain the benefit of a combat feat she does not possess.
 - Unarmed Strike (1d6)
 ** Hunter 2
 - Animal Focus (2 Min/Day on Self, Unlimited on Animal)
@@ -63,9 +63,9 @@
 - Saving Throws
 |        | Total | Base | Attribute | Item | Traits |
 |--------+-------+------+-----------+------+--------|
-| Fort   |     7 |    5 |         2 |      |        |
-| Reflex |     7 |    5 |         2 |      |        |
-| Will   |     2 |    0 |         1 |      | 1      |
+| Fort   |     8 |    5 |         2 |    1 |        |
+| Reflex |     8 |    5 |         2 |    1 |        |
+| Will   |     3 |    0 |         1 |    1 |      1 |
 * Skill
 Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 
@@ -134,7 +134,8 @@ Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 * Items
 | Name                           | Price | Weight | Comment    |
 |--------------------------------+-------+--------+------------|
-| +1 Agile Breastplate           |  1550 |     25 |            |
+| Agile Breastplate              |   550 |     25 |            |
+| +1 Cloak of Resistance         |  1000 |      1 |            |
 | Mwk Falchion                   |   375 |      8 |            |
 | MWK Longbow, Composite(+4 str) |   800 |      3 |            |
 | Arrow(20)                      |     1 |      3 |            |
@@ -155,8 +156,8 @@ Skill Points = 4(Brawler)+12(Hunter)+3(Human)=19
 | Animal                         |       |        |            |
 | Barding, MWK Studded Leather   |   200 |     25 | For Animal |
 |--------------------------------+-------+--------+------------|
-| Total                          |  2996 |  130.5 |            |
-#+TBLFM: @20$2=vsum(@2..@19)::@20$3=vsum(@2..@19)
+| Total                          |  2996 |  131.5 |            |
+#+TBLFM: @21$2=vsum(@2..@20)::@21$3=vsum(@2..@20)
 
 - Carrying Capacity: 
   - Light: 116lbs (masterwork backpack +1 str for carrying capacity)
