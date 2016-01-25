@@ -1,1 +1,2 @@
-[[http://www.d20pfsrd.com/gamemastering]]
+http://www.d20pfsrd.com/gamemastering
+
